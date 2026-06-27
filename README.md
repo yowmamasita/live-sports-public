@@ -63,6 +63,11 @@ python3 server.py
 | `/playlist.m3u` | M3U playlist (only alive channels) |
 | `/stream/{channel_id}` | HLS proxy for a specific channel |
 | `/api/channels` | JSON API with all channels and status |
+| `/manifest.json` | Stremio addon manifest |
+| `/catalog/tv/all.json` | Stremio catalog (all alive channels) |
+| `/catalog/tv/all/genre={Genre}.json` | Stremio catalog filtered by genre |
+| `/meta/tv/{id}.json` | Stremio channel metadata |
+| `/stream/tv/{id}.json` | Stremio stream info |
 
 ## Categories
 
@@ -71,6 +76,14 @@ Channels are organized into groups for IPTV player navigation:
 - `Live: Soccer`, `Live: Baseball`, etc. — active event streams
 - `Sports` — 24/7 sports networks (ESPN, Sky Sports, beIN, DAZN, etc.)
 - `TV: United States`, `TV: Germany`, etc. — TV channels by country
+
+## Stremio
+
+Install as a Stremio addon:
+
+```
+http://<server-ip>:8765/manifest.json
+```
 
 ## Apple TV
 
