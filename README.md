@@ -2,6 +2,8 @@
 
 Multi-source live sports streaming server that aggregates channels from multiple providers, health-checks them, and serves an M3U playlist with an HLS proxy — designed for Apple TV (UHF app).
 
+![Dashboard](screenshot.png)
+
 ## How it works
 
 1. **Fetches channels** from all sources on startup and every 30 minutes
