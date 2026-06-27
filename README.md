@@ -2,16 +2,6 @@
 
 Multi-source live sports streaming server that aggregates channels from multiple providers, health-checks them, and serves an M3U playlist with an HLS proxy — designed for Apple TV (UHF app).
 
-## Sources
-
-| Source | Type | Channels |
-|--------|------|----------|
-| **DaddyLive** | 24/7 TV channels | ~430 (scraped via [daddylive.pk](https://daddylive.pk) mirror discovery) |
-| **NTV CDNLive** | 24/7 TV channels | ~450 (via [ntv.cx](https://ntv.cx) API) |
-| **StreamFree** | Live events | ~20 per day (via [streamfree.app](https://streamfree.app) API) |
-| **SportsBite** | Live events | ~25 per day (via [sportsbite.lol](https://sportsbite.lol) API) |
-| **BINTV** | Direct m3u8 links | Variable (via GitHub-hosted JSON index) |
-
 ## How it works
 
 1. **Fetches channels** from all sources on startup and every 30 minutes
