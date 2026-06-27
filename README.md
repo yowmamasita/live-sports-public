@@ -2,7 +2,7 @@
 
 Multi-source live sports streaming server that aggregates channels from multiple providers, health-checks them, and serves an M3U playlist with an HLS proxy — designed for Apple TV (UHF app).
 
-![Dashboard](screenshot.png)
+![Dashboard](https://raw.githubusercontent.com/yowmamasita/live-sports-public/main/screenshot.png)
 
 ## How it works
 
